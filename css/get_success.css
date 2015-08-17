@@ -1,0 +1,72 @@
+body{
+	font-family: "微软雅黑";
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	background: #fff;
+}
+i{
+	font-style: normal;
+}
+b{
+	font-weight: normal;
+}
+p{
+	font-size: 12px;
+}
+.out{
+	background: #e4e4e4;
+}
+.header{
+	width: 70%;
+	margin: 0 auto;
+	  padding-bottom: 50px;
+}
+.header h4{
+	color:#434343;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 20px 0px 15px;
+}
+.img_out{
+	background:url(../img/bg_13.png) no-repeat;
+	background-size:100% ;
+}
+.img_out span{
+	font-size: 34px;
+	color: white;
+}
+.img_out p {
+  font-size: 20px;
+  color: white;
+  padding: 11px 0;
+  text-align: center;
+  margin-left: -18%;
+}
+.ma {
+  width: 130px;
+  height: 130px;
+  margin: 50px auto;
+  /* margin: 40px 0; */
+}
+.info h4 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+		.img_out p { 
+	  padding: 15px 0;
+	}
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	.img_out p { 
+	  padding: 17px 0;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	.img_out p { 
+	  padding: 21px 0;
+	}
+}
