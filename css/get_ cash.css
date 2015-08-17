@@ -50,7 +50,7 @@ p,h4{
 	-moz-appearance:none; /* Firefox */ 
 	-webkit-appearance:none; /* Safari 和 Chrome */
 }
-input[type="text"]{
+input[type="tel"]{
 	width: 100%;	
   display: block;
   width: 80%;
